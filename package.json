@@ -4,7 +4,8 @@
   "description": "https://youtube.com/watch?v=dQw4w9WgXcQ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "prettier src --write",
+    "start": "node src/index.js"
   },
   "author": "",
   "license": "ISC",
